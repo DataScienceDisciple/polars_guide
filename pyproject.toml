@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "polars-guide"
+version = "0.1.0"
+description = ""
+authors = ["Łukasz Łaszczuk <lukasz.laszczuk@datawalk.com>"]
+readme = "README.md"
+packages = [{include = "polars_guide"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polars = "^0.16.8"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
